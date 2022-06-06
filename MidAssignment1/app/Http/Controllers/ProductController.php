@@ -41,7 +41,7 @@ class ProductController extends Controller
             $p1->name = $req->name;
             $p1->mandate = $req->mandate;
             $p1->price = $req->price;
-            $p1->save(); //insert query will run
+            $p1->save(); 
 
         return "Submitted with valid value";
         
